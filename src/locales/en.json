@@ -1,0 +1,346 @@
+{
+  "meta": {
+    "title": "SolarArc — Clean energy and food from saline land",
+    "description": "SolarArc: solar panels on raised steel arches over saline land. Clean energy on top, food underneath. CECECO Clean Energy Hackathon 2027."
+  },
+  "common": {
+    "brand": "SolarArc",
+    "underReview": "Under review",
+    "demoData": "Demo data",
+    "live": "Live",
+    "offline": "Prototype offline — showing demo data",
+    "conceptImage": "Concept visualization (AI-generated)",
+    "imageMissing": "Image coming soon",
+    "inTesting": "In testing",
+    "westShort": "W",
+    "eastShort": "E",
+    "meters": "{{value}} m",
+    "hectares": "{{value}} ha",
+    "percent": "{{value}}%",
+    "fullSize": "Full size"
+  },
+  "nav": {
+    "skip": "Skip to content",
+    "label": "Main navigation",
+    "home": "SolarArc — back to top",
+    "links": {
+      "problem": "Problem",
+      "solution": "Solution",
+      "prototype": "Prototype",
+      "simulator": "Simulator",
+      "impact": "Impact",
+      "roadmap": "Roadmap"
+    },
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "languageGroup": "Choose language",
+    "languageName": {
+      "en": "English",
+      "az": "Azərbaycanca",
+      "ru": "Русский"
+    },
+    "languageCode": {
+      "en": "EN",
+      "az": "AZ",
+      "ru": "RU"
+    }
+  },
+  "hero": {
+    "badge": "CECECO Clean Energy Hackathon 2027 · Azerbaijan",
+    "title": "Turning dead saline land into clean energy and food",
+    "subtitle": "Energy on top. An oasis below.",
+    "lead": "SolarArc raises solar panels on {{height}} m steel arches over salt-damaged land. The same hectare produces clean electricity above and crops below, while the shade slows evaporation and helps the soil recover.",
+    "ctaHow": "See how it works",
+    "ctaSim": "Try the simulator"
+  },
+  "problem": {
+    "eyebrow": "The problem",
+    "title": "Good land is turning white with salt",
+    "lead": "Azerbaijan has a lot of sun and a lot of saline land. Today, neither is used well.",
+    "cards": {
+      "saline": {
+        "title": "Saline land",
+        "body": "Kura-Araz, Mil-Mugan and Absheron have hundreds of thousands of hectares of saline soil. In +40 °C summers irrigation water evaporates, the salt stays in the topsoil, crops fail and farmers abandon the land."
+      },
+      "singleUse": {
+        "title": "Classic solar uses land for only one thing",
+        "body": "Conventional ground-mounted plants produce electricity and nothing else. The land underneath gives no food and is never restored."
+      }
+    },
+    "diagram": {
+      "alt": "Diagram: the hot sun evaporates water from the soil surface, water rises and leaves a white salt layer in the topsoil, and the plant dries out.",
+      "heat": "+40 °C summer",
+      "evaporation": "Water evaporates",
+      "salt": "Salt stays in the topsoil",
+      "soil": "Soil",
+      "caption": "How salt rises: every time water evaporates from bare soil, the salt it carried stays behind near the surface."
+    }
+  },
+  "solution": {
+    "eyebrow": "The solution",
+    "title": "How SolarArc works",
+    "lead": "One structure, three jobs: produce energy, grow food and bring saline soil back to life. Tap the numbers to explore the cross-section.",
+    "diagram": {
+      "alt": "Cross-section of a SolarArc bay: a steel arch with curved solar panels on top, crops and drip lines underneath, soil layers and a ground cooling channel below. East is on the right, West on the left.",
+      "stepOf": "{{n}} of {{total}}",
+      "listLabel": "Parts of the system"
+    },
+    "hotspots": {
+      "arch": {
+        "title": "Raised steel arch ({{height}} m)",
+        "body": "Coated steel lifts the panels high enough for people and small machines to work underneath. The open lattice lets wind pass through instead of pushing against a solid wall."
+      },
+      "layout": {
+        "title": "Curved East–West panel layout",
+        "body": "Panels follow the curve of the arch, so they face different directions. East-facing panels catch the morning sun, West-facing panels the evening sun — output is spread across the day, not only around midday."
+      },
+      "shade": {
+        "title": "Shade",
+        "body": "Partial shade under the arch lowers soil temperature and reduces evaporation, so less salt is pulled up to the surface."
+      },
+      "drip": {
+        "title": "Drip irrigation + EC sensors",
+        "body": "Electrical conductivity (EC) sensors track soil salinity. Drip lines deliver water exactly where it is needed and, when required, flush salt down below the root zone."
+      },
+      "cooling": {
+        "title": "Ground cooling channel",
+        "body": "A channel in the ground supplies cooler air under the arch, which should help the panels run cooler. This idea is still being tested on the prototype."
+      },
+      "crops": {
+        "title": "Crops underneath",
+        "body": "We choose crops that like partial shade, tolerate some salinity and sell at a premium — from mushrooms in the darkest zone to sweet cherry tomatoes."
+      }
+    },
+    "pillars": {
+      "energy": {
+        "title": "Energy",
+        "body": "Clean electricity from the panels, spread across morning, midday and evening."
+      },
+      "food": {
+        "title": "Food",
+        "body": "Shade- and salt-tolerant premium crops grown on land that produced nothing before."
+      },
+      "soil": {
+        "title": "Soil restoration",
+        "body": "Shade and controlled drip irrigation keep salt down, so the land can gradually recover."
+      }
+    },
+    "concepts": {
+      "interior": {
+        "alt": "Concept visualization: inside a long arched tunnel whose roof is made of solar panels. Two farmers tend rows of tomatoes and climbing cucumbers; cabbages grow in raised beds with drip-irrigation lines along the ground.",
+        "caption": "Inside the arch: crops growing under the solar roof. Concept visualization."
+      },
+      "aerial": {
+        "alt": "Concept visualization: aerial view of four parallel solar-panel arches on a farm, with tomatoes and cabbages growing in beds underneath, open fields around them and farm buildings and tractors in the background.",
+        "caption": "A SolarArc farm from above. Concept visualization."
+      }
+    }
+  },
+  "prototype": {
+    "eyebrow": "Prototype",
+    "title": "A working prototype, not just a drawing.",
+    "lead": "We built a tabletop model of the arch to test the idea with real sunlight and real measurements.",
+    "photo": {
+      "alt": "The SolarArc tabletop prototype: a white curved arch on two feet, its top covered with a row of small solar cells, with the measurement controller board (red LED lit) standing underneath.",
+      "caption": "The working tabletop prototype with its on-board controller."
+    },
+    "drawing": {
+      "alt": "Technical drawing, Fig. 1 — East–West section of the solar arch: a steel truss arch, ten solar panels mounted on the west interior of the arch, and a tilted ground mirror outside the east side reflecting morning sunlight onto the panels.",
+      "caption": "Fig. 1 — East–West section of the arch (morning-corrected design). Click to enlarge."
+    },
+    "points": {
+      "realtime": "The model generates electricity in real time from sunlight or a lamp.",
+      "controller": "An on-board controller measures voltage, current and power — the data feeds the dashboard below."
+    }
+  },
+  "sim": {
+    "eyebrow": "Simulator",
+    "title": "Move the sun, compare the curves",
+    "lead": "Drag the time of day and switch the season. Compare a curved SolarArc with the same number of flat panels tilted 30° to the South.",
+    "timeLabel": "Time of day (solar time)",
+    "seasonLabel": "Season",
+    "season": {
+      "summer": "Summer",
+      "winter": "Winter"
+    },
+    "series": {
+      "arch": "SolarArc (curved)",
+      "flat": "Flat panel"
+    },
+    "view": {
+      "altUp": "At {{time}} the sun is {{elevation}}° above the horizon (azimuth {{azimuth}}°). Arch panels are coloured by how much light each one receives.",
+      "altDown": "At {{time}} the sun is below the horizon. No panel produces power.",
+      "flatRow": "Flat panels, 30° South",
+      "sunInfo": "Sun: elevation {{elevation}}°, azimuth {{azimuth}}°",
+      "night": "Sun below the horizon"
+    },
+    "chartTitle": "Power over the day (flat-panel summer peak = 100)",
+    "chartAlt": "Line chart of power over the day for SolarArc and a flat panel. The selected time is marked with a vertical line.",
+    "stats": {
+      "caption": "Daily results, {{season}}",
+      "metric": "Metric",
+      "shoulder": "Share of energy before 10:00 and after 16:00",
+      "peak": "Peak power",
+      "energy": "Daily energy",
+      "units": "Relative units: power is scaled so the flat-panel summer peak = 100; energy = power × hours."
+    },
+    "takeawayTitle": "What the model shows",
+    "takeaway": "The arch starts earlier and keeps going later, so a bigger share of its energy comes in the morning and evening. The flat south-facing panel has a higher midday peak and, in this model, more total energy per panel — especially in winter. SolarArc's value is the wider curve together with food and soil restoration on the same land.",
+    "caption": "Simplified geometric model for illustration. Real performance is being measured on the prototype."
+  },
+  "dashboard": {
+    "eyebrow": "Prototype data",
+    "title": "Live dashboard",
+    "lead": "Readings from the prototype's on-board controller. When the prototype isn't connected, the dashboard shows realistic demo data.",
+    "refresh": "Updates every 2 seconds",
+    "tiles": {
+      "power": "Power",
+      "voltage": "Voltage",
+      "current": "Current",
+      "temp": "Panel temperature",
+      "ec": "Soil EC",
+      "moisture": "Soil moisture"
+    },
+    "units": {
+      "w": "{{value}} W",
+      "v": "{{value}} V",
+      "ma": "{{value}} mA",
+      "c": "{{value}} °C",
+      "ec": "{{value}} dS/m",
+      "pct": "{{value}}%"
+    },
+    "chartTitle": "Power — last {{count}} readings",
+    "chartAlt": "Area chart of the last {{count}} power readings."
+  },
+  "crops": {
+    "eyebrow": "Underneath the arch",
+    "title": "What grows in the shade",
+    "lead": "Crops chosen for partial shade, tolerance to salinity and a strong market price.",
+    "items": {
+      "mushrooms": {
+        "name": "Mushrooms",
+        "note": "Grow in the darkest, coolest zone."
+      },
+      "cherryTomato": {
+        "name": "Cherry tomato",
+        "note": "Mild salinity raises sweetness (Brix)."
+      },
+      "strawberry": {
+        "name": "Strawberry",
+        "note": "High-value berry that welcomes shade in hot summers."
+      },
+      "spinach": {
+        "name": "Spinach",
+        "note": "Fast leafy crop — one of the first harvests."
+      },
+      "garlic": {
+        "name": "Garlic",
+        "note": "Hardy crop that stores well and fills the cooler season."
+      },
+      "microgreensBasil": {
+        "name": "Microgreens + basil",
+        "note": "Short growing cycles, high value per square metre."
+      }
+    },
+    "premium": {
+      "eyebrow": "Our signature",
+      "title": "Saline Premium",
+      "body": "Under mild, controlled salt stress, tomatoes accumulate more sugar. On SolarArc land, sweetness is a selling point, not a defect."
+    },
+    "total": "Total farmed area under the arches: {{value}} ha."
+  },
+  "impact": {
+    "eyebrow": "Impact",
+    "title": "What a {{area}} ha pilot could deliver",
+    "lead": "Estimates for a {{area}} ha SolarArc pilot. Values marked with a dotted underline are still under review.",
+    "groups": {
+      "energy": "Energy",
+      "food": "Food",
+      "climate": "Climate",
+      "people": "People",
+      "land": "Land"
+    },
+    "stats": {
+      "capacity": "Installed capacity",
+      "generation": "Annual generation",
+      "homes": "Homes powered",
+      "food": "Food per year",
+      "co2": "CO₂ avoided per year",
+      "jobs": "Permanent jobs",
+      "land": "Land value uplift"
+    },
+    "units": {
+      "mw": "{{value}} MW",
+      "gwh": "{{value}} GWh",
+      "t": "{{value}} t",
+      "uplift": "{{min}}–{{max}}×"
+    },
+    "chart": {
+      "title": "SolarArc vs classic solar on {{area}} ha",
+      "capacity": "Capacity (MW)",
+      "generation": "Generation (GWh/year)",
+      "solararc": "SolarArc",
+      "classic": "Classic solar",
+      "alt": "Bar chart on {{area}} ha: capacity — SolarArc {{sMw}} MW, classic solar {{cMw}} MW; annual generation — SolarArc {{sGwh}} GWh, classic solar {{cGwh}} GWh."
+    },
+    "footnote": "Pilot estimates for {{area}} ha. Figures under review and will be updated with prototype and pilot data."
+  },
+  "roadmap": {
+    "eyebrow": "Roadmap",
+    "title": "From one arch to a region",
+    "lead": "We start small, measure everything, then scale.",
+    "steps": {
+      "s1": {
+        "when": "Months 1–3",
+        "what": "Soil testing, EC mapping, 1 ha pilot arch built."
+      },
+      "s2": {
+        "when": "Months 4–6",
+        "what": "Pilot testing, first mushroom and spinach harvest, salinity data."
+      },
+      "s3": {
+        "when": "Months 7–12",
+        "what": "Scale to 10 ha, all crops planted."
+      },
+      "s4": {
+        "when": "Year 2",
+        "what": "Full production, certification, first exports."
+      },
+      "s5": {
+        "when": "Next",
+        "what": "100 ha cluster → ECO region (Türkiye, Kazakhstan, Uzbekistan, Pakistan)."
+      }
+    }
+  },
+  "partners": {
+    "eyebrow": "Partners",
+    "title": "Who we're looking for",
+    "lead": "SolarArc needs partners on the ground, on the grid and in the field.",
+    "cards": {
+      "land": {
+        "title": "Land partner",
+        "body": "Owners or managers of saline plots ready for a pilot."
+      },
+      "grid": {
+        "title": "Energy / grid partner",
+        "body": "Grid connection, power purchase and technical support."
+      },
+      "agri": {
+        "title": "Agriculture partner",
+        "body": "Agronomy, seedlings, harvest and distribution."
+      },
+      "investor": {
+        "title": "Investor",
+        "body": "Funding for the 1 ha pilot and the 10 ha scale-up."
+      }
+    },
+    "cta": "Get in touch"
+  },
+  "footer": {
+    "team": "Team SolarArc (team name placeholder)",
+    "event": "CECECO Clean Energy Hackathon 2027",
+    "occasion": "A project for the Clean Energy Hackathon 2027, held on the occasion of International Clean Energy Day.",
+    "aiNote": "Concept images are AI-generated visualizations.",
+    "modelNote": "Simulator results come from a simplified geometric model. Impact figures are pilot estimates."
+  }
+}

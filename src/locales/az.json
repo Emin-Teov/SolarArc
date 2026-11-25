@@ -1,0 +1,346 @@
+{
+  "meta": {
+    "title": "SolarArc — şoran torpaqdan təmiz enerji və ərzaq",
+    "description": "SolarArc: şoran torpaq üzərində hündür polad tağlara quraşdırılmış günəş panelləri. Yuxarıda enerji, aşağıda oazis. CECECO Clean Energy Hackathon 2027."
+  },
+  "common": {
+    "brand": "SolarArc",
+    "underReview": "Yoxlanılır",
+    "demoData": "Demo məlumat",
+    "live": "Canlı",
+    "offline": "Prototip qoşulmayıb — demo məlumat göstərilir",
+    "conceptImage": "Konsept vizualizasiya (Sİ ilə yaradılıb)",
+    "imageMissing": "Şəkil tezliklə əlavə olunacaq",
+    "inTesting": "Sınaqdadır",
+    "westShort": "Q",
+    "eastShort": "Ş",
+    "meters": "{{value}} m",
+    "hectares": "{{value}} ha",
+    "percent": "{{value}}%",
+    "fullSize": "Tam ölçüdə"
+  },
+  "nav": {
+    "skip": "Əsas məzmuna keç",
+    "label": "Əsas naviqasiya",
+    "home": "SolarArc — yuxarı qayıt",
+    "links": {
+      "problem": "Problem",
+      "solution": "Həll",
+      "prototype": "Prototip",
+      "simulator": "Simulyator",
+      "impact": "Təsir",
+      "roadmap": "Yol xəritəsi"
+    },
+    "openMenu": "Menyunu aç",
+    "closeMenu": "Menyunu bağla",
+    "languageGroup": "Dili seçin",
+    "languageName": {
+      "en": "English",
+      "az": "Azərbaycanca",
+      "ru": "Русский"
+    },
+    "languageCode": {
+      "en": "EN",
+      "az": "AZ",
+      "ru": "RU"
+    }
+  },
+  "hero": {
+    "badge": "CECECO Clean Energy Hackathon 2027 · Azərbaycan",
+    "title": "Ölü şoran torpağı təmiz enerji və ərzağa çeviririk",
+    "subtitle": "Yuxarıda enerji, aşağıda oazis.",
+    "lead": "SolarArc günəş panellərini şoranlaşmış torpaq üzərində {{height}} metrlik polad tağlara qaldırır. Eyni hektar yuxarıda təmiz elektrik, aşağıda isə məhsul verir, kölgə isə buxarlanmanı azaldaraq torpağın bərpasına kömək edir.",
+    "ctaHow": "Necə işlədiyinə baxın",
+    "ctaSim": "Simulyatoru sınayın"
+  },
+  "problem": {
+    "eyebrow": "Problem",
+    "title": "Münbit torpaqlar duzdan ağarır",
+    "lead": "Azərbaycanda həm günəş, həm də şoran torpaq boldur. Bu gün hər ikisindən lazımınca istifadə olunmur.",
+    "cards": {
+      "saline": {
+        "title": "Şoran torpaq",
+        "body": "Kür-Araz, Mil-Muğan və Abşeronda yüz minlərlə hektar şoran torpaq var. +40 °C yay istisində suvarma suyu buxarlanır, duz üst qatda qalır, məhsul məhv olur və fermerlər torpağı tərk edir."
+      },
+      "singleUse": {
+        "title": "Adi günəş stansiyası torpaqdan yalnız bir məqsədlə istifadə edir",
+        "body": "Ənənəvi yerüstü stansiyalar yalnız elektrik istehsal edir. Altındakı torpaq nə ərzaq verir, nə də bərpa olunur."
+      }
+    },
+    "diagram": {
+      "alt": "Sxem: isti günəş torpağın səthindən suyu buxarlandırır, su yuxarı qalxır və üst qatda ağ duz təbəqəsi qoyur, bitki quruyur.",
+      "heat": "+40 °C yay",
+      "evaporation": "Su buxarlanır",
+      "salt": "Duz üst qatda qalır",
+      "soil": "Torpaq",
+      "caption": "Duz necə qalxır: çılpaq torpaqdan hər dəfə su buxarlananda onun gətirdiyi duz səthə yaxın qalır."
+    }
+  },
+  "solution": {
+    "eyebrow": "Həll",
+    "title": "SolarArc necə işləyir",
+    "lead": "Bir konstruksiya, üç vəzifə: enerji istehsalı, ərzaq yetişdirilməsi və şoran torpağın bərpası. Kəsiyi araşdırmaq üçün rəqəmlərə toxunun.",
+    "diagram": {
+      "alt": "SolarArc bölməsinin kəsiyi: üstündə əyri günəş panelləri olan polad tağ, altında bitkilər və damcı xətləri, aşağıda torpaq qatları və yeraltı soyutma kanalı. Şərq sağda, qərb solda.",
+      "stepOf": "{{n}} / {{total}}",
+      "listLabel": "Sistemin hissələri"
+    },
+    "hotspots": {
+      "arch": {
+        "title": "Hündür polad tağ ({{height}} m)",
+        "body": "Örtüklü polad panelləri elə hündürlüyə qaldırır ki, altında insanlar və kiçik texnika işləyə bilsin. Açıq qəfəs quruluşu küləyi bərk divar kimi saxlamır, içindən keçirir."
+      },
+      "layout": {
+        "title": "Əyri Şərq–Qərb panel düzülüşü",
+        "body": "Panellər tağın əyrisi boyunca düzülür və müxtəlif istiqamətlərə baxır. Şərqə baxan panellər səhər günəşini, qərbə baxanlar axşam günəşini tutur — istehsal yalnız günortaya deyil, bütün günə yayılır."
+      },
+      "shade": {
+        "title": "Kölgə",
+        "body": "Tağın altındakı qismən kölgə torpağın temperaturunu aşağı salır və buxarlanmanı azaldır, buna görə səthə daha az duz qalxır."
+      },
+      "drip": {
+        "title": "Damcı suvarma + EC sensorları",
+        "body": "Elektrik keçiriciliyi (EC) sensorları torpağın duzluluğunu izləyir. Damcı xətləri suyu lazım olan yerə çatdırır və ehtiyac olduqda duzu kök zonasından aşağı yuyur."
+      },
+      "cooling": {
+        "title": "Yeraltı soyutma kanalı",
+        "body": "Torpaqdakı kanal tağın altına daha sərin hava verir; bu, panellərin daha sərin işləməsinə kömək etməlidir. Bu ideya hələ prototipdə sınaqdan keçirilir."
+      },
+      "crops": {
+        "title": "Altında bitən məhsullar",
+        "body": "Qismən kölgəni sevən, müəyyən duzluluğa davamlı və yüksək qiymətə satılan bitkilər seçirik — ən qaranlıq zonada göbələkdən tutmuş şirin çeri pomidora qədər."
+      }
+    },
+    "pillars": {
+      "energy": {
+        "title": "Enerji",
+        "body": "Panellərdən səhər, günorta və axşama yayılan təmiz elektrik."
+      },
+      "food": {
+        "title": "Ərzaq",
+        "body": "Əvvəllər heç nə verməyən torpaqda yetişən, kölgəyə və duza davamlı premium məhsullar."
+      },
+      "soil": {
+        "title": "Torpağın bərpası",
+        "body": "Kölgə və idarə olunan damcı suvarma duzu aşağıda saxlayır, torpaq tədricən bərpa olunur."
+      }
+    },
+    "concepts": {
+      "interior": {
+        "alt": "Konsept vizualizasiya: damı günəş panellərindən ibarət uzun tağlı tunelin içi. İki fermer pomidor və dırmaşan xiyar cərgələrinə qulluq edir; hündür ləklərdə kələm bitir, yer boyunca damcı suvarma xətləri uzanır.",
+        "caption": "Tağın içi: günəş damının altında bitən məhsullar. Konsept vizualizasiya."
+      },
+      "aerial": {
+        "alt": "Konsept vizualizasiya: fermada paralel düzülmüş dörd günəş panelli tağın yuxarıdan görünüşü; altında ləklərdə pomidor və kələm bitir, ətrafda açıq tarlalar, arxa planda ferma binaları və traktorlar görünür.",
+        "caption": "SolarArc fermasının yuxarıdan görünüşü. Konsept vizualizasiya."
+      }
+    }
+  },
+  "prototype": {
+    "eyebrow": "Prototip",
+    "title": "Sadəcə çertyoj deyil, işləyən prototip.",
+    "lead": "İdeyanı real günəş işığı və real ölçmələrlə yoxlamaq üçün tağın stolüstü modelini qurduq.",
+    "photo": {
+      "alt": "SolarArc stolüstü prototipi: iki dayaq üzərində ağ əyri tağ, üstü bir cərgə kiçik günəş elementi ilə örtülüb, altında isə ölçmə kontrollerinin lövhəsi (qırmızı işıq yanır) dayanır.",
+      "caption": "Bort kontrolleri ilə işləyən stolüstü prototip."
+    },
+    "drawing": {
+      "alt": "Texniki çertyoj, Şəkil 1 — günəş tağının Şərq–Qərb kəsiyi: polad fermadan tağ, tağın qərb daxili tərəfinə bərkidilmiş on günəş paneli və şərq tərəfdə, tağdan kənarda səhər günəş işığını panellərə əks etdirən maili yer güzgüsü.",
+      "caption": "Şəkil 1 — tağın Şərq–Qərb kəsiyi (səhər üçün düzəldilmiş variant). Böyütmək üçün klikləyin."
+    },
+    "points": {
+      "realtime": "Model günəş işığından və ya lampadan real vaxtda elektrik istehsal edir.",
+      "controller": "Bortdakı kontroller gərginliyi, cərəyanı və gücü ölçür — bu məlumatlar aşağıdakı paneldə göstərilir."
+    }
+  },
+  "sim": {
+    "eyebrow": "Simulyator",
+    "title": "Günəşi hərəkət etdirin, əyriləri müqayisə edin",
+    "lead": "Günün saatını dəyişin və mövsümü seçin. Əyri SolarArc-ı cənuba 30° maili eyni sayda düz panellə müqayisə edin.",
+    "timeLabel": "Günün saatı (günəş vaxtı)",
+    "seasonLabel": "Mövsüm",
+    "season": {
+      "summer": "Yay",
+      "winter": "Qış"
+    },
+    "series": {
+      "arch": "SolarArc (əyri)",
+      "flat": "Düz panel"
+    },
+    "view": {
+      "altUp": "Saat {{time}}: günəş üfüqdən {{elevation}}° yuxarıdadır (azimut {{azimuth}}°). Tağın panelləri aldığı işığın miqdarına görə rənglənib.",
+      "altDown": "Saat {{time}}: günəş üfüqdən aşağıdadır. Heç bir panel enerji istehsal etmir.",
+      "flatRow": "Düz panellər, cənuba 30°",
+      "sunInfo": "Günəş: hündürlük {{elevation}}°, azimut {{azimuth}}°",
+      "night": "Günəş üfüqdən aşağıdadır"
+    },
+    "chartTitle": "Gün ərzində güc (düz panelin yay pik dəyəri = 100)",
+    "chartAlt": "SolarArc və düz panel üçün gün ərzində gücün xətti qrafiki. Seçilmiş vaxt şaquli xətlə göstərilib.",
+    "stats": {
+      "caption": "Gündəlik nəticələr, {{season}}",
+      "metric": "Göstərici",
+      "shoulder": "Saat 10:00-dan əvvəl və 16:00-dan sonra enerjinin payı",
+      "peak": "Pik güc",
+      "energy": "Gündəlik enerji",
+      "units": "Nisbi vahidlər: güc düz panelin yay pik dəyəri = 100 olacaq şəkildə miqyaslanıb; enerji = güc × saat."
+    },
+    "takeawayTitle": "Model nəyi göstərir",
+    "takeaway": "Tağ daha erkən başlayır və daha gec dayanır, buna görə enerjisinin daha böyük hissəsi səhər və axşam saatlarına düşür. Cənuba baxan düz panelin günorta piki daha yüksəkdir və bu modeldə bir panelə düşən ümumi enerji də daha çoxdur — xüsusilə qışda. SolarArc-ın dəyəri daha geniş əyri ilə yanaşı, eyni torpaqda ərzaq istehsalı və torpağın bərpasıdır.",
+    "caption": "İllüstrasiya üçün sadələşdirilmiş həndəsi model. Real göstəricilər prototipdə ölçülür."
+  },
+  "dashboard": {
+    "eyebrow": "Prototip məlumatları",
+    "title": "Canlı panel",
+    "lead": "Prototipin bort kontrollerindən gələn göstəricilər. Prototip qoşulmadıqda panel real görünüşlü demo məlumat göstərir.",
+    "refresh": "Hər 2 saniyədən bir yenilənir",
+    "tiles": {
+      "power": "Güc",
+      "voltage": "Gərginlik",
+      "current": "Cərəyan",
+      "temp": "Panelin temperaturu",
+      "ec": "Torpağın EC-si",
+      "moisture": "Torpağın nəmliyi"
+    },
+    "units": {
+      "w": "{{value}} Vt",
+      "v": "{{value}} V",
+      "ma": "{{value}} mA",
+      "c": "{{value}} °C",
+      "ec": "{{value}} dS/m",
+      "pct": "{{value}}%"
+    },
+    "chartTitle": "Güc — son {{count}} ölçmə",
+    "chartAlt": "Son {{count}} güc ölçməsinin sahəli qrafiki."
+  },
+  "crops": {
+    "eyebrow": "Tağın altında",
+    "title": "Kölgədə nə bitir",
+    "lead": "Qismən kölgəyə, duzluluğa davamlılığa və yüksək bazar qiymətinə görə seçilmiş bitkilər.",
+    "items": {
+      "mushrooms": {
+        "name": "Göbələk",
+        "note": "Ən qaranlıq və sərin zonada yetişir."
+      },
+      "cherryTomato": {
+        "name": "Çeri pomidor",
+        "note": "Zəif duzluluq şirinliyi (Brix) artırır."
+      },
+      "strawberry": {
+        "name": "Çiyələk",
+        "note": "İsti yayda kölgəni sevən dəyərli giləmeyvə."
+      },
+      "spinach": {
+        "name": "Ispanaq",
+        "note": "Tez yetişən yarpaqlı bitki — ilk məhsullardan biri."
+      },
+      "garlic": {
+        "name": "Sarımsaq",
+        "note": "Yaxşı saxlanılan, sərin mövsümü dolduran davamlı bitki."
+      },
+      "microgreensBasil": {
+        "name": "Mikrogöyərti + reyhan",
+        "note": "Qısa yetişmə dövrü, kvadratmetrə görə yüksək dəyər."
+      }
+    },
+    "premium": {
+      "eyebrow": "Bizim imzamız",
+      "title": "Saline Premium",
+      "body": "Zəif, idarə olunan duz stresi altında pomidor daha çox şəkər toplayır. SolarArc torpağında şirinlik qüsur deyil, üstünlükdür."
+    },
+    "total": "Tağların altında əkin sahəsi cəmi {{value}} ha təşkil edir."
+  },
+  "impact": {
+    "eyebrow": "Təsir",
+    "title": "{{area}} ha-lıq pilot layihə nə verə bilər",
+    "lead": "{{area}} ha-lıq SolarArc pilot layihəsi üçün təxminlər. Nöqtəli xətlə vurğulanmış dəyərlər hələ yoxlanılır.",
+    "groups": {
+      "energy": "Enerji",
+      "food": "Ərzaq",
+      "climate": "İqlim",
+      "people": "İnsanlar",
+      "land": "Torpaq"
+    },
+    "stats": {
+      "capacity": "Quraşdırılmış güc",
+      "generation": "İllik istehsal",
+      "homes": "Enerji ilə təmin olunan evlər",
+      "food": "İllik ərzaq",
+      "co2": "İldə qarşısı alınan CO₂",
+      "jobs": "Daimi iş yerləri",
+      "land": "Torpağın dəyərinin artımı"
+    },
+    "units": {
+      "mw": "{{value}} MVt",
+      "gwh": "{{value}} QVt·s",
+      "t": "{{value}} t",
+      "uplift": "{{min}}–{{max}} dəfə"
+    },
+    "chart": {
+      "title": "{{area}} ha-da SolarArc və adi günəş stansiyası",
+      "capacity": "Güc (MVt)",
+      "generation": "İstehsal (QVt·s/il)",
+      "solararc": "SolarArc",
+      "classic": "Adi günəş stansiyası",
+      "alt": "{{area}} ha üçün sütunlu qrafik: güc — SolarArc {{sMw}} MVt, adi stansiya {{cMw}} MVt; illik istehsal — SolarArc {{sGwh}} QVt·s, adi stansiya {{cGwh}} QVt·s."
+    },
+    "footnote": "{{area}} ha üçün pilot layihə təxminləri. Rəqəmlər yoxlanılır və prototip və pilot layihə məlumatları ilə yenilənəcək."
+  },
+  "roadmap": {
+    "eyebrow": "Yol xəritəsi",
+    "title": "Bir tağdan bütöv regiona",
+    "lead": "Kiçikdən başlayırıq, hər şeyi ölçürük, sonra genişlənirik.",
+    "steps": {
+      "s1": {
+        "when": "1–3-cü aylar",
+        "what": "Torpaq analizi, EC xəritələşdirməsi, 1 ha-lıq pilot tağın tikintisi."
+      },
+      "s2": {
+        "when": "4–6-cı aylar",
+        "what": "Pilot sınaqlar, ilk göbələk və ispanaq məhsulu, duzluluq məlumatları."
+      },
+      "s3": {
+        "when": "7–12-ci aylar",
+        "what": "10 ha-ya genişlənmə, bütün bitkilərin əkilməsi."
+      },
+      "s4": {
+        "when": "2-ci il",
+        "what": "Tam istehsal, sertifikatlaşdırma, ilk ixrac."
+      },
+      "s5": {
+        "when": "Sonra",
+        "what": "100 ha-lıq klaster → ECO regionu (Türkiyə, Qazaxıstan, Özbəkistan, Pakistan)."
+      }
+    }
+  },
+  "partners": {
+    "eyebrow": "Tərəfdaşlar",
+    "title": "Kimi axtarırıq",
+    "lead": "SolarArc-a torpaqda, şəbəkədə və sahədə tərəfdaşlar lazımdır.",
+    "cards": {
+      "land": {
+        "title": "Torpaq tərəfdaşı",
+        "body": "Pilot layihəyə hazır şoran sahələrin sahibləri və ya idarəçiləri."
+      },
+      "grid": {
+        "title": "Enerji / şəbəkə tərəfdaşı",
+        "body": "Şəbəkəyə qoşulma, enerji alışı və texniki dəstək."
+      },
+      "agri": {
+        "title": "Kənd təsərrüfatı tərəfdaşı",
+        "body": "Aqronomiya, şitillər, məhsul yığımı və paylanma."
+      },
+      "investor": {
+        "title": "İnvestor",
+        "body": "1 ha-lıq pilot və 10 ha-ya genişlənmə üçün maliyyə."
+      }
+    },
+    "cta": "Bizimlə əlaqə saxlayın"
+  },
+  "footer": {
+    "team": "SolarArc komandası (komanda adı sonra əlavə olunacaq)",
+    "event": "CECECO Clean Energy Hackathon 2027",
+    "occasion": "Beynəlxalq Təmiz Enerji Günü münasibətilə keçirilən Clean Energy Hackathon 2027 üçün layihə.",
+    "aiNote": "Konsept təsvirlər süni intellektlə yaradılmış vizualizasiyalardır.",
+    "modelNote": "Simulyatorun nəticələri sadələşdirilmiş həndəsi modelə əsaslanır. Təsir rəqəmləri pilot layihə təxminləridir."
+  }
+}
