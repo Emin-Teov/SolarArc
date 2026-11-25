@@ -134,6 +134,10 @@
         "alt": "Konsept vizualizasiya: fermada paralel düzülmüş dörd günəş panelli tağın yuxarıdan görünüşü; altında ləklərdə pomidor və kələm bitir, ətrafda açıq tarlalar, arxa planda ferma binaları və traktorlar görünür.",
         "caption": "SolarArc fermasının yuxarıdan görünüşü. Konsept vizualizasiya."
       }
+    },
+    "video": {
+      "label": "Konsept video: dron ağ duz qabığı ilə örtülmüş torpaqda duran, damı tamamilə günəş panellərindən ibarət tağ cərgələrinin üzərindən uçur; altında, kölgədə yaşıl məhsullar bitir.",
+      "caption": "Hərəkətdə SolarArc: günəş damı bütün bağı örtür. Konsept vizualizasiya."
     }
   },
   "prototype": {

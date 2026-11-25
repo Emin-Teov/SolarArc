@@ -1,6 +1,7 @@
 import { Mountain, Sprout, Zap } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import { ArchDiagram } from './ArchDiagram'
+import { ConceptVideo } from './ConceptVideo'
 import { Reveal, Section } from './Section'
 import { SmartImage } from './SmartImage'
 
@@ -32,7 +33,11 @@ export function Solution() {
         ))}
       </div>
 
-      <div className="mt-10 grid gap-6 md:grid-cols-2">
+      <Reveal className="mt-10">
+        <ConceptVideo />
+      </Reveal>
+
+      <div className="mt-6 grid gap-6 md:grid-cols-2">
         <Reveal>
           <SmartImage src="images/concept-interior.jpg" alt={t('solution.concepts.interior.alt')} caption={t('solution.concepts.interior.caption')} concept aspect="aspect-[16/9]" />
         </Reveal>

@@ -134,6 +134,10 @@
         "alt": "Concept visualization: aerial view of four parallel solar-panel arches on a farm, with tomatoes and cabbages growing in beds underneath, open fields around them and farm buildings and tractors in the background.",
         "caption": "A SolarArc farm from above. Concept visualization."
       }
+    },
+    "video": {
+      "label": "Concept video: a drone flies over rows of arches roofed entirely with solar panels, standing on white salt-crusted land, with green crops growing in the shade underneath.",
+      "caption": "SolarArc in motion: the solar roof covers the whole garden. Concept visualization."
     }
   },
   "prototype": {

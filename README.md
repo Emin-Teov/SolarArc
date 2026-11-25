@@ -38,6 +38,12 @@ Copy the real files into `public/images/` with exactly these names:
 Until a file exists, a placeholder ("Image coming soon") is shown. Concept renders are automatically
 labelled "Concept visualization (AI-generated)". Landscape images around 1600 × 1200 px work best.
 
+## Concept video
+
+`public/videos/solararc-concept.mp4` (AI-generated, 16:9) is shown in the Solution section with the poster
+`public/videos/solararc-concept.jpg` (a frame from the video). It plays muted and looped only while on screen,
+never autoplays with reduced motion, and has native controls. To replace it, keep the same file names.
+
 ## Editing numbers
 
 **Every figure lives in [`src/data/project.ts`](src/data/project.ts)** — change it there and nowhere else.
